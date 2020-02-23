@@ -6,8 +6,7 @@ Protractor is an end-to-end test framework for Angular and AngularJS application
 
 To install - Navigate to https://code.visualstudio.com/
 - Click download button
-- Download the VSCode software oacjage according to your operating system, and install it
-- Launch Visual Studio Code to esure that it is successfully installed
+- Download the VSCode software package according to your operating system, and install it
 
 #2 Installing Node.js: Node.js® is a JavaScript runtime environment built on Chrome's V8 JavaScript engine.  WebDriverJS has been written in Node.js and Protractor is written on top of WebDriverJS. So, you need NodeJS to enable compilation for Protractor.
 To install - Navigate to : https://nodejs.org/en/download/
@@ -18,14 +17,14 @@ To install - Navigate to : https://nodejs.org/en/download/
 To Install - You can install Protractor from the Visual Studio Code itself.
 - Launch Visual Studio Code, and click on View -> Integrated Terminal (From top navigation links)
 - Type following command (without quotes), and press enter
--- "npm install protractor -g"
+>> "npm install protractor -g"
 
 #4 Installing Typescript: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. In other words, TypeScript is JavaScript plus some additional features.  Typescript adopts the basic building blocks of your program from JavaScript. Hence, you only need to know JavaScript to use TypeScript. All TypeScript code is converted into its JavaScript equivalent for the purpose of execution.
 To Install - You can install Typescript from the Visual Studio Code itself. (Continuation from Install step #3)
 - Type following command (without quotes), and press enter
--- "npm install typescript -g"
+>> "npm install typescript -g"
 
 #5 Installing Jasmine: Jasmine is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript frameworks. It does not require a DOM. And it has a clean, obvious syntax so that you can easily write tests.
 To Install - You can install Jasmine from the Visual Studio Code itself. (Continuation from Install step #3)
 - Type following command (without quotes), and press enter
--- "npm install jasmine"
+>> "npm install jasmine"
