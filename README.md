@@ -28,3 +28,33 @@ To Install - You can install Typescript from the Visual Studio Code itself. (Con
 To Install - You can install Jasmine from the Visual Studio Code itself. (Continuation from Install step #3)
 - Type following command (without quotes), and press enter
 >> "npm install jasmine"
+
+#6 We will also need to install "typings" of jasmine and node by executing the following command:
+- Type following command (without quotes), and press enter
+>> "npm install --save-dev @types/jasmine"
+>> "npm install @types/node"
+
+#7 Installing Updates to WebDriver:
+- Type following command (without quotes), and press enter
+>> "npx WebDriver-manager update"
+Note:
+NPM - Manages packages but doesn't make life easy executing any.
+NPX - A tool for executing Node packages.  NPX comes bundled with NPM starting version 5.2+
+
+#8 Installing IE driver to execute test in IE (this is only needed if you need to run tests using IE browser)
+- Type following command (without quotes), and press enter
+>> "npx webdriver-manager update --ie"
+
+#9 Install Protractor Beautiful reporting dependencies
+- Type following command (without quotes), and press enter
+>> "npm install protractor-beautiful-reporter --save-dev"
+
+#10 Start and connect the Selenium server - By default DirectConnect is enabled.  Direct connect is not supported for IE; hence, we you can comment it in the config file and uncomment the seleniumAddress: 'http://localhost:4444/wd/hub',
+If you uncomment the selenium address then yo uwill need to start the webdriver server manually. Running following command before executing the tests will start the webdriver server.
+>> "webdriver-manager start"
+
+#11 Execute following command to trigger the test execution
+npm test or npm run test both works
+
+#12 To Execute a specific test case execute following command (in the following case, am just running Test case 0005)
+tsc && protractor .\\tempOutput\\Config.js --suite=TC0005
