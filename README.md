@@ -1,6 +1,8 @@
 # ProtractorUITestAutomation
 Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.  The framework here is built using Typescript.  Please read through following for details. 
 
+#Project - This is a sample project with demonstrates the code in Typescript using Protractor of different object models (Input fields, dropdowns, options, checkboxes, etc.).  Also, this could be used as a base framework and extended easily based on your needs.
+
 #Setup Instructions
 #1 Install Visual Studio Code editor - Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). 
 
