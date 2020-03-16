@@ -1,7 +1,7 @@
 {
   "lockfileVersion": 1,
   "version": "1.0.0",
-  "description": "Runs Protractor E2E tests from a Typescript setup for Omnicell web applications",
+  "description": "Runs Protractor E2E tests from a Typescript setup for Web application hosted at http://www.helpingtesters.com/practice/protractor/index.php",
   "dependencies": {
     "@types/node": "^13.5.1",
     "html-pdf": "^2.2.0",
@@ -14,8 +14,8 @@
     "protractor-beautiful-reporter": "^1.3.6"
   },
   "author": {
-    "name": "Binny Catrath",
-    "email": "Binny.Chatrath@omnicell.com"
+    "name": "Binny Chatrath",
+    "email": "Binny.Chatrath@gmail.com"
   },
   "scripts": {
     "webdriver-update": "webdriver-manager update",
