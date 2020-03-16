@@ -54,7 +54,7 @@ If you uncomment the selenium address then yo uwill need to start the webdriver 
 >> "webdriver-manager start"
 
 #11 Execute following command to trigger the test execution
-npm test or npm run test both works
+>> "npm test" or "npm run test"
 
 #12 To Execute a specific test case execute following command (in the following case, am just running Test case 0005)
-tsc && protractor .\\tempOutput\\Config.js --suite=TC0005
+>> "tsc && protractor .\\tempOutput\\Config.js --suite=TC0005"
