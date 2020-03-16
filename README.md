@@ -1,4 +1,4 @@
-# ProtractorUITestAutomation
+# Protractor E2E UI TestAutomation
 Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.  The framework here is built using Typescript.  Please read through following for details. 
 
 #Project - This is a sample project with demonstrates the code in Typescript using Protractor of different object models (Input fields, dropdowns, options, checkboxes, etc.).  Also, this could be used as a base framework and extended easily based on your needs.  I have used 'http://www.helpingtesters.com/practice/protractor/index.php' website for this project as it has various differnt types of objects to work with.  
