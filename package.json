@@ -1,0 +1,31 @@
+{
+  "lockfileVersion": 1,
+  "version": "1.0.0",
+  "description": "Runs Protractor E2E tests from a Typescript setup for Omnicell web applications",
+  "dependencies": {
+    "@types/node": "^13.5.1",
+    "html-pdf": "^2.2.0",
+    "jasmine": "^3.5.0",
+    "protractor": "^5.4.3",
+    "protractor-html-reporter-2": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.2",
+    "protractor-beautiful-reporter": "^1.3.6"
+  },
+  "author": {
+    "name": "Binny Catrath",
+    "email": "Binny.Chatrath@omnicell.com"
+  },
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "pretest": "tsc && if exist .\\Results rmdir /q /s .\\Results",
+    "test": "tsc && protractor .\\tempOutput\\Config.js",
+    "test:TC0001": "tsc && protractor .\\tempOutput\\Config.js --suite=TC0001",
+    "test:TC0002": "tsc && protractor .\\tempOutput\\Config.js --suite=TC0002",
+    "test:TC0003": "tsc && protractor .\\tempOutput\\Config.js --suite=TC0003",
+    "test:TC0004": "tsc && protractor .\\tempOutput\\Config.js --suite=TC0004",
+    "test:TC0005": "tsc && protractor .\\tempOutput\\Config.js --suite=TC0005",
+    "posttest": "rmdir /q /s .\\tempOutput && html-pdf ./Results/WebAutomationTestReport.html ./Results/TestResults.pdf"
+  }
+}
